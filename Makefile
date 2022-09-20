@@ -1,6 +1,15 @@
+#
+# @file Makefile
+# @author Hunter Johnson
+# @date 2022-09-20
+# @brief A makefile for employee class and children
+# 
+#compiles the neccesary files to make an executable for main
+#
 
 
 
+#Makes convienient variables for compiling and checking for errors and debugging I suppose
 CC = g++
 CFLAGS = -g -Wall -Wextra
 TARGET = Employee
